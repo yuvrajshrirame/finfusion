@@ -1,1 +1,1 @@
-# MERN-Auth
+# FinFusion - Your All-in-One Finance App
