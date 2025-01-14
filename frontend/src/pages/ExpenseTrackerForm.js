@@ -33,6 +33,7 @@ function ExpenseTrackerForm({ addExpenses }) {
         <div>
           <label htmlFor="email">Expense Description</label>
           <input
+            class="curvy-border"
             onChange={handleChange}
             type="text"
             name="text"
@@ -43,6 +44,7 @@ function ExpenseTrackerForm({ addExpenses }) {
         <div>
           <label htmlFor="amount">Amount</label>
           <input
+            class="curvy-border"
             onChange={handleChange}
             type="number"
             name="amount"
