@@ -63,6 +63,7 @@ function Login() {
                 <div>
                     <label htmlFor='email'>Email</label>
                     <input
+                        class="curvy-border"
                         onChange={handleChange}
                         type='email'
                         name='email'
@@ -73,6 +74,7 @@ function Login() {
                 <div>
                     <label htmlFor='password'>Password</label>
                     <input
+                        class="curvy-border"
                         onChange={handleChange}
                         type='password'
                         name='password'
@@ -81,7 +83,8 @@ function Login() {
                     />
                 </div>
                 <button type='submit'>Login</button>
-                <span>Does't have an account ?
+                <span>Doesn't have an account ?
+                    <span> </span>
                     <Link to="/signup">Signup</Link>
                 </span>
             </form>
