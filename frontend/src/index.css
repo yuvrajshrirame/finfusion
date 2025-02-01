@@ -173,3 +173,7 @@ button{
 .signup-container {
   margin-top: 100px;
 }
+
+.logout-btn {
+  margin-left: 20px;
+}
